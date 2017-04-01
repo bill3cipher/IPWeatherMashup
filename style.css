@@ -1,0 +1,64 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.vertical-center{
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#content {
+  padding: 0px 230px 0px 230px;
+  margin: 0 auto;
+}
+
+
+#contentbox{
+  color: #2ecc71;
+  background-color: #2ecc71;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+
+#temp {
+  font-size: 120px;
+}
+
+#icon {
+  font-size: 100px;
+  background-color: red;
+}
+
+#data {
+  padding: 37px 0px 29px 0px;
+  font-size: 25px;
+}
+
+#temp:nth-child(1) {
+	padding: 0px 9px 0px 0px;
+	font-size: 90px;
+}
+
+#temp:nth-child(2) {
+  padding: 0px 9px 0px 0px;
+  font-size: 110px;
+}
+
+#tempe i {
+  font-size: 70px;
+}
+
+#location i {
+  padding: 0px 11px 0px 0px;
+}
+
+#weather i {
+  padding: 0px 8px 0px 0px;
+}
+
+#myip i {
+  padding: 0px 8px 0px 0px;
+}
